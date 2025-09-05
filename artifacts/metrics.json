@@ -1,0 +1,54 @@
+{
+  "val_roc_auc": 0.7634320175438597,
+  "val_pr_auc": 0.502121976945493,
+  "val_brier": 0.1625735802833402,
+  "val_prevalence": 0.24,
+  "test_roc_auc": 0.8223684210526315,
+  "test_pr_auc": 0.6005389796367986,
+  "test_brier": 0.12916017179598865,
+  "test_prevalence": 0.24,
+  "thresholds": {
+    "t_review": 0.09090909090909091,
+    "t_launch": 0.9059585435440444
+  },
+  "val_category_counts": {
+    "Ignore": 13,
+    "Launch": 10,
+    "Review": 77
+  },
+  "val_category_success_rate": {
+    "Ignore": 0.0,
+    "Launch": 0.7,
+    "Review": 0.22077922077922077
+  },
+  "val_at_t_review": {
+    "threshold": 0.09090909090909091,
+    "precision": 0.27586206896551724,
+    "recall": 1.0,
+    "f1": 0.4324324324324324,
+    "tn": 13,
+    "fp": 63,
+    "fn": 0,
+    "tp": 24
+  },
+  "test_at_t_review": {
+    "threshold": 0.09090909090909091,
+    "precision": 0.2696629213483146,
+    "recall": 1.0,
+    "f1": 0.4247787610619469,
+    "tn": 11,
+    "fp": 65,
+    "fn": 0,
+    "tp": 24
+  },
+  "test_at_t_launch": {
+    "threshold": 0.9059585435440444,
+    "precision": 0.8,
+    "recall": 0.3333333333333333,
+    "f1": 0.47058823529411764,
+    "tn": 74,
+    "fp": 2,
+    "fn": 16,
+    "tp": 8
+  }
+}
